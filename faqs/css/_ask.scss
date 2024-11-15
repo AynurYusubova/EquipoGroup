@@ -1,0 +1,116 @@
+@media (min-width:0) and (max-width:567px) {
+    #ask {
+        margin: 2rem 0;
+        .text {
+            font-family: Mulish;
+
+            h1 {
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #525558;
+            }
+        }
+
+        .box {
+            select {
+                border: none;
+                padding: 2rem 0;
+                font-family: Poppins;
+                font-size: 13px;
+                option {
+                    &:nth-child(1) {
+                        display: none !important;
+                    }
+
+                    color: #525558;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:568px) and (max-width:991px) {
+    #ask {
+        margin: 2rem 0;
+        .text {
+            font-family: Mulish;
+
+            h1 {
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #525558;
+            }
+        }
+
+        .box {
+            select {
+                border: none;
+                padding: 2rem 0;
+                font-family: Poppins;
+                font-size: 13px;
+                option {
+                    &:nth-child(1) {
+                        display: none !important;
+                    }
+
+                    color: #525558;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:992px) {
+    #ask {
+        margin: 2rem 0;
+
+        .text {
+            font-family: Mulish;
+
+            h1 {
+                font-weight: 700;
+                font-size: 2rem;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #525558;
+            }
+        }
+
+        .box {
+            padding: 2rem 0;
+
+            select {
+                border: none;
+                padding: 2rem 0;
+                font-family: Poppins;
+                font-size: 18px;
+
+                option {
+                    &:nth-child(1) {
+                        display: none !important;
+                    }
+
+                    color: #525558;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
